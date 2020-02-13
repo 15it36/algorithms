@@ -1,7 +1,7 @@
-def solveArray(arr):
+def solveArray(array):
     value = 0
-    for i in range(len(arr)):
-        value = value + arr[i]
+    for i in range(len(array)):
+        value = value + array[i]
     return value
 
 
